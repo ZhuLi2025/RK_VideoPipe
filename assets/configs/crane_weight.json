@@ -1,0 +1,8 @@
+{
+    "model_path": "assets/rknns/crane_weight_yolov8m_w8a8.rknn",
+    "labels": ["crane weight"],
+    "alarm_labels": ["crane weight"],
+    "model_type": "YOLOv8",
+    "conf_threshold": 0.25,
+    "nms_threshold": 0.45
+}

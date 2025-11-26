@@ -1,0 +1,233 @@
+[2025-11-06 09:01:06] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 09:01:08] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 09:01:08] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-11-06 09:01:08] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 09:01:52] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 09:01:53] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 09:01:53] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-11-06 09:01:53] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 09:06:42] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 09:06:43] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 09:06:43] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-11-06 09:06:43] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 11:12:49] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 11:12:51] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 11:12:51] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream/stream_0]
+[2025-11-06 11:12:51] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 11:38:22] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 11:38:24] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 11:38:24] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream/stream_0]
+[2025-11-06 11:38:24] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 14:40:30] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 14:40:32] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 14:40:32] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=localhost port=7890]
+[2025-11-06 14:40:32] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://localhost:8000/rtsp_0]
+[2025-11-06 14:40:32] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 14:54:13] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 14:54:14] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 14:54:14] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=(Ù>á port=7890]
+[2025-11-06 14:54:14] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 14:54:14] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 14:54:44] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 14:54:45] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 14:54:45] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=˜Xé port=7890]
+[2025-11-06 14:54:45] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 14:54:45] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 14:55:11] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 14:55:13] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 14:55:13] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=¢DÁ port=7890]
+[2025-11-06 14:55:13] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 14:55:13] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 14:56:53] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 14:56:55] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 14:56:55] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=Ø,DÔ port=7890]
+[2025-11-06 14:56:55] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 14:56:55] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 15:04:24] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 15:04:25] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 15:04:25] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=192.168.1.99 port=7890]
+[2025-11-06 15:04:25] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 15:04:25] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 15:35:28] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 15:35:30] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 15:35:30] [Info] [rtsp_des_0] [appsrc ! videoconvert ! x264enc bitrate=512 ! h264parse ! rtph264pay ! udpsink host=192.168.1.99 port=7890]
+[2025-11-06 15:35:30] [Info] [rtsp_des_0] is going to push rtsp stream, please visit:[rtsp://192.168.1.99:8000/rtsp_0]
+[2025-11-06 15:35:30] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtsp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 15:38:57] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 15:38:58] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 15:38:58] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-11-06 15:38:58] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 16:28:23] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 16:28:25] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 16:28:25] [Info] [udp_des_0] UDP sender initialized: 192.168.1.99:8000
+[2025-11-06 16:28:25] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    udp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 16:47:21] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 16:47:22] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 16:47:22] [Info] [udp_des_0] UDP sender initialized: 192.168.1.101:8000
+[2025-11-06 16:47:22] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    udp_des_0,
+############# pipe check summary ##############
+
+[2025-11-06 20:03:50] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 20:03:52] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 20:03:55] [Info] [rtsp_src_0] RTSP url: [rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream]
+[2025-11-06 20:03:56] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-11-06 20:03:57] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-11-06 20:03:57] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+

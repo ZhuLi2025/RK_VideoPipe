@@ -1,0 +1,74 @@
+[2025-10-27 11:56:41] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-27 11:56:41] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-27 11:56:41] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-27 11:56:41] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-27 11:57:32] [Info] [rtsp_src_0] [filesrc location=assets/videos/person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-27 11:57:32] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-27 11:57:32] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-27 11:57:32] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-27 11:57:53] [Info] [rtsp_src_0] reading frame complete, total frame==>328
+[2025-10-27 11:57:53] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-27 11:58:05] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-27 11:58:05] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-27 11:58:05] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-27 11:58:05] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-27 13:38:45] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-27 13:38:45] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-27 13:38:45] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-27 13:38:45] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-27 13:39:31] [Info] [rtsp_src_0] reading frame complete, total frame==>695
+[2025-10-27 13:39:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-27 14:50:41] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-27 14:50:41] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-27 14:50:41] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-27 14:50:41] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+

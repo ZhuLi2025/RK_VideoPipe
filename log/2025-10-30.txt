@@ -1,0 +1,878 @@
+[2025-10-30 08:12:11] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 08:12:11] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 08:12:11] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 08:12:11] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:54:21] [Info] [rtsp_src_0] [filesrc location=assets/videos/person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:54:21] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:54:21] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:54:21] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:54:55] [Info] [rtsp_src_0] [filesrc location=assets/videos/person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:54:55] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:54:55] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:54:55] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:55:37] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:55:37] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:55:37] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:55:37] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:55:46] [Info] [rtsp_src_0] [filesrc location=assets/videos/person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:55:46] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:55:46] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:55:46] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:56:20] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:56:20] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:56:20] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:56:20] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 11:57:38] [Info] [rtsp_src_0] [filesrc location=assets/videos/vehicle.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 11:57:38] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 11:57:38] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 11:57:38] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 13:52:39] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 13:52:39] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 13:52:39] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 13:52:39] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 13:53:06] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 13:53:06] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 13:53:06] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 13:53:06] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 13:53:26] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 13:53:26] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 13:53:45] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 13:53:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 14:00:26] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:00:26] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:00:26] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:00:26] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:00:50] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:00:50] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:00:50] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:00:50] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:01:09] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 14:01:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 14:03:06] [Info] [rtsp_src_0] [filesrc location=assets/videos/vehicle.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:03:06] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:03:06] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:03:06] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:03:16] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:03:16] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:03:16] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:03:16] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:31:52] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:31:52] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:31:52] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:31:52] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:38:24] [Info] [rtsp_src_0] [filesrc location=assets/videos/crane_weight.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:38:24] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:38:24] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:38:24] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:38:35] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:38:35] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:38:35] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:38:35] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:51:04] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 14:51:04] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 14:51:04] [Info] [screen_des_0] [appsrc ! videoconvert ! videoscale ! textoverlay text=screen_des_0 halignment=left valignment=top font-desc='Sans,16' shaded-background=true ! timeoverlay halignment=right valignment=top font-desc='Sans,16' shaded-background=true ! queue ! fpsdisplaysink video-sink=ximagesink sync=false]
+[2025-10-30 14:51:04] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    screen_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 14:51:23] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 14:51:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:07:27] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 15:07:27] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 15:07:27] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 15:07:27] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 15:07:45] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 15:07:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:08:04] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 15:08:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:08:23] [Info] [rtsp_src_0] reading frame complete, total frame==>902
+[2025-10-30 15:08:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:10:21] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 15:10:21] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 15:10:21] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 15:10:21] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 15:10:40] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 15:10:40] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:10:59] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 15:10:59] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:11:17] [Info] [rtsp_src_0] reading frame complete, total frame==>902
+[2025-10-30 15:11:17] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:11:36] [Info] [rtsp_src_0] reading frame complete, total frame==>1203
+[2025-10-30 15:11:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:11:54] [Info] [rtsp_src_0] reading frame complete, total frame==>1504
+[2025-10-30 15:11:54] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:12:13] [Info] [rtsp_src_0] reading frame complete, total frame==>1805
+[2025-10-30 15:12:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:12:31] [Info] [rtsp_src_0] reading frame complete, total frame==>2106
+[2025-10-30 15:12:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:12:50] [Info] [rtsp_src_0] reading frame complete, total frame==>2407
+[2025-10-30 15:12:50] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:13:09] [Info] [rtsp_src_0] reading frame complete, total frame==>2708
+[2025-10-30 15:13:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:13:27] [Info] [rtsp_src_0] reading frame complete, total frame==>3009
+[2025-10-30 15:13:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:13:46] [Info] [rtsp_src_0] reading frame complete, total frame==>3310
+[2025-10-30 15:13:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:14:04] [Info] [rtsp_src_0] reading frame complete, total frame==>3611
+[2025-10-30 15:14:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:14:23] [Info] [rtsp_src_0] reading frame complete, total frame==>3912
+[2025-10-30 15:14:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:14:41] [Info] [rtsp_src_0] reading frame complete, total frame==>4213
+[2025-10-30 15:14:41] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:15:00] [Info] [rtsp_src_0] reading frame complete, total frame==>4514
+[2025-10-30 15:15:00] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:15:19] [Info] [rtsp_src_0] reading frame complete, total frame==>4815
+[2025-10-30 15:15:19] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:15:37] [Info] [rtsp_src_0] reading frame complete, total frame==>5116
+[2025-10-30 15:15:37] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:15:56] [Info] [rtsp_src_0] reading frame complete, total frame==>5417
+[2025-10-30 15:15:56] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:16:14] [Info] [rtsp_src_0] reading frame complete, total frame==>5718
+[2025-10-30 15:16:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:16:33] [Info] [rtsp_src_0] reading frame complete, total frame==>6019
+[2025-10-30 15:16:33] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:16:52] [Info] [rtsp_src_0] reading frame complete, total frame==>6320
+[2025-10-30 15:16:52] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:17:10] [Info] [rtsp_src_0] reading frame complete, total frame==>6621
+[2025-10-30 15:17:10] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:17:29] [Info] [rtsp_src_0] reading frame complete, total frame==>6922
+[2025-10-30 15:17:29] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:17:47] [Info] [rtsp_src_0] reading frame complete, total frame==>7223
+[2025-10-30 15:17:47] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:18:06] [Info] [rtsp_src_0] reading frame complete, total frame==>7524
+[2025-10-30 15:18:06] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:18:24] [Info] [rtsp_src_0] reading frame complete, total frame==>7825
+[2025-10-30 15:18:24] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:18:43] [Info] [rtsp_src_0] reading frame complete, total frame==>8126
+[2025-10-30 15:18:43] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:19:02] [Info] [rtsp_src_0] reading frame complete, total frame==>8427
+[2025-10-30 15:19:02] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:19:20] [Info] [rtsp_src_0] reading frame complete, total frame==>8728
+[2025-10-30 15:19:20] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:19:39] [Info] [rtsp_src_0] reading frame complete, total frame==>9029
+[2025-10-30 15:19:39] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:19:57] [Info] [rtsp_src_0] reading frame complete, total frame==>9330
+[2025-10-30 15:19:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:20:16] [Info] [rtsp_src_0] reading frame complete, total frame==>9631
+[2025-10-30 15:20:16] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:20:34] [Info] [rtsp_src_0] reading frame complete, total frame==>9932
+[2025-10-30 15:20:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:20:53] [Info] [rtsp_src_0] reading frame complete, total frame==>10233
+[2025-10-30 15:20:53] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:21:12] [Info] [rtsp_src_0] reading frame complete, total frame==>10534
+[2025-10-30 15:21:12] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:21:30] [Info] [rtsp_src_0] reading frame complete, total frame==>10835
+[2025-10-30 15:21:30] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:21:49] [Info] [rtsp_src_0] reading frame complete, total frame==>11136
+[2025-10-30 15:21:49] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:22:07] [Info] [rtsp_src_0] reading frame complete, total frame==>11437
+[2025-10-30 15:22:07] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:22:26] [Info] [rtsp_src_0] reading frame complete, total frame==>11738
+[2025-10-30 15:22:26] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:22:45] [Info] [rtsp_src_0] reading frame complete, total frame==>12039
+[2025-10-30 15:22:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:23:03] [Info] [rtsp_src_0] reading frame complete, total frame==>12340
+[2025-10-30 15:23:03] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:23:22] [Info] [rtsp_src_0] reading frame complete, total frame==>12641
+[2025-10-30 15:23:22] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:23:40] [Info] [rtsp_src_0] reading frame complete, total frame==>12942
+[2025-10-30 15:23:40] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:23:59] [Info] [rtsp_src_0] reading frame complete, total frame==>13243
+[2025-10-30 15:23:59] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:24:17] [Info] [rtsp_src_0] reading frame complete, total frame==>13544
+[2025-10-30 15:24:17] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:24:36] [Info] [rtsp_src_0] reading frame complete, total frame==>13845
+[2025-10-30 15:24:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:24:55] [Info] [rtsp_src_0] reading frame complete, total frame==>14146
+[2025-10-30 15:24:55] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:25:13] [Info] [rtsp_src_0] reading frame complete, total frame==>14447
+[2025-10-30 15:25:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:25:32] [Info] [rtsp_src_0] reading frame complete, total frame==>14748
+[2025-10-30 15:25:32] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:25:50] [Info] [rtsp_src_0] reading frame complete, total frame==>15049
+[2025-10-30 15:25:50] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:26:09] [Info] [rtsp_src_0] reading frame complete, total frame==>15350
+[2025-10-30 15:26:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:26:28] [Info] [rtsp_src_0] reading frame complete, total frame==>15651
+[2025-10-30 15:26:28] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:26:46] [Info] [rtsp_src_0] reading frame complete, total frame==>15952
+[2025-10-30 15:26:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:27:05] [Info] [rtsp_src_0] reading frame complete, total frame==>16253
+[2025-10-30 15:27:05] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:27:23] [Info] [rtsp_src_0] reading frame complete, total frame==>16554
+[2025-10-30 15:27:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:27:42] [Info] [rtsp_src_0] reading frame complete, total frame==>16855
+[2025-10-30 15:27:42] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:28:01] [Info] [rtsp_src_0] reading frame complete, total frame==>17156
+[2025-10-30 15:28:01] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:28:19] [Info] [rtsp_src_0] reading frame complete, total frame==>17457
+[2025-10-30 15:28:19] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:28:38] [Info] [rtsp_src_0] reading frame complete, total frame==>17758
+[2025-10-30 15:28:38] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:28:56] [Info] [rtsp_src_0] reading frame complete, total frame==>18059
+[2025-10-30 15:28:56] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:29:15] [Info] [rtsp_src_0] reading frame complete, total frame==>18360
+[2025-10-30 15:29:15] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:29:33] [Info] [rtsp_src_0] reading frame complete, total frame==>18661
+[2025-10-30 15:29:33] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:29:52] [Info] [rtsp_src_0] reading frame complete, total frame==>18962
+[2025-10-30 15:29:52] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:30:11] [Info] [rtsp_src_0] reading frame complete, total frame==>19263
+[2025-10-30 15:30:11] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:30:29] [Info] [rtsp_src_0] reading frame complete, total frame==>19564
+[2025-10-30 15:30:29] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:30:48] [Info] [rtsp_src_0] reading frame complete, total frame==>19865
+[2025-10-30 15:30:48] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:31:06] [Info] [rtsp_src_0] reading frame complete, total frame==>20166
+[2025-10-30 15:31:06] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:31:25] [Info] [rtsp_src_0] reading frame complete, total frame==>20467
+[2025-10-30 15:31:25] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:31:44] [Info] [rtsp_src_0] reading frame complete, total frame==>20768
+[2025-10-30 15:31:44] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:32:02] [Info] [rtsp_src_0] reading frame complete, total frame==>21069
+[2025-10-30 15:32:02] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:32:21] [Info] [rtsp_src_0] reading frame complete, total frame==>21370
+[2025-10-30 15:32:21] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:32:39] [Info] [rtsp_src_0] reading frame complete, total frame==>21671
+[2025-10-30 15:32:39] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:32:58] [Info] [rtsp_src_0] reading frame complete, total frame==>21972
+[2025-10-30 15:32:58] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:33:16] [Info] [rtsp_src_0] reading frame complete, total frame==>22273
+[2025-10-30 15:33:16] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:33:35] [Info] [rtsp_src_0] reading frame complete, total frame==>22574
+[2025-10-30 15:33:35] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:33:54] [Info] [rtsp_src_0] reading frame complete, total frame==>22875
+[2025-10-30 15:33:54] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:34:12] [Info] [rtsp_src_0] reading frame complete, total frame==>23176
+[2025-10-30 15:34:12] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:34:31] [Info] [rtsp_src_0] reading frame complete, total frame==>23477
+[2025-10-30 15:34:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:34:49] [Info] [rtsp_src_0] reading frame complete, total frame==>23778
+[2025-10-30 15:34:49] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:35:08] [Info] [rtsp_src_0] reading frame complete, total frame==>24079
+[2025-10-30 15:35:08] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:35:27] [Info] [rtsp_src_0] reading frame complete, total frame==>24380
+[2025-10-30 15:35:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:35:45] [Info] [rtsp_src_0] reading frame complete, total frame==>24681
+[2025-10-30 15:35:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:36:04] [Info] [rtsp_src_0] reading frame complete, total frame==>24982
+[2025-10-30 15:36:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:36:22] [Info] [rtsp_src_0] reading frame complete, total frame==>25283
+[2025-10-30 15:36:22] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:36:41] [Info] [rtsp_src_0] reading frame complete, total frame==>25584
+[2025-10-30 15:36:41] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:36:59] [Info] [rtsp_src_0] reading frame complete, total frame==>25885
+[2025-10-30 15:36:59] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:37:18] [Info] [rtsp_src_0] reading frame complete, total frame==>26186
+[2025-10-30 15:37:18] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:37:37] [Info] [rtsp_src_0] reading frame complete, total frame==>26487
+[2025-10-30 15:37:37] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:37:55] [Info] [rtsp_src_0] reading frame complete, total frame==>26788
+[2025-10-30 15:37:55] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:38:14] [Info] [rtsp_src_0] reading frame complete, total frame==>27089
+[2025-10-30 15:38:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:38:32] [Info] [rtsp_src_0] reading frame complete, total frame==>27390
+[2025-10-30 15:38:32] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:38:51] [Info] [rtsp_src_0] reading frame complete, total frame==>27691
+[2025-10-30 15:38:51] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:39:09] [Info] [rtsp_src_0] reading frame complete, total frame==>27992
+[2025-10-30 15:39:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:39:28] [Info] [rtsp_src_0] reading frame complete, total frame==>28293
+[2025-10-30 15:39:28] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:39:47] [Info] [rtsp_src_0] reading frame complete, total frame==>28594
+[2025-10-30 15:39:47] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:40:05] [Info] [rtsp_src_0] reading frame complete, total frame==>28895
+[2025-10-30 15:40:05] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:40:24] [Info] [rtsp_src_0] reading frame complete, total frame==>29196
+[2025-10-30 15:40:24] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:40:42] [Info] [rtsp_src_0] reading frame complete, total frame==>29497
+[2025-10-30 15:40:42] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:41:01] [Info] [rtsp_src_0] reading frame complete, total frame==>29798
+[2025-10-30 15:41:01] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:41:20] [Info] [rtsp_src_0] reading frame complete, total frame==>30099
+[2025-10-30 15:41:20] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:41:38] [Info] [rtsp_src_0] reading frame complete, total frame==>30400
+[2025-10-30 15:41:38] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:41:57] [Info] [rtsp_src_0] reading frame complete, total frame==>30701
+[2025-10-30 15:41:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:42:15] [Info] [rtsp_src_0] reading frame complete, total frame==>31002
+[2025-10-30 15:42:15] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:42:34] [Info] [rtsp_src_0] reading frame complete, total frame==>31303
+[2025-10-30 15:42:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:42:53] [Info] [rtsp_src_0] reading frame complete, total frame==>31604
+[2025-10-30 15:42:53] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:43:11] [Info] [rtsp_src_0] reading frame complete, total frame==>31905
+[2025-10-30 15:43:11] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:43:30] [Info] [rtsp_src_0] reading frame complete, total frame==>32206
+[2025-10-30 15:43:30] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:43:48] [Info] [rtsp_src_0] reading frame complete, total frame==>32507
+[2025-10-30 15:43:48] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:44:07] [Info] [rtsp_src_0] reading frame complete, total frame==>32808
+[2025-10-30 15:44:07] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:44:25] [Info] [rtsp_src_0] reading frame complete, total frame==>33109
+[2025-10-30 15:44:25] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:44:44] [Info] [rtsp_src_0] reading frame complete, total frame==>33410
+[2025-10-30 15:44:44] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:45:03] [Info] [rtsp_src_0] reading frame complete, total frame==>33711
+[2025-10-30 15:45:03] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:45:21] [Info] [rtsp_src_0] reading frame complete, total frame==>34012
+[2025-10-30 15:45:21] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:45:40] [Info] [rtsp_src_0] reading frame complete, total frame==>34313
+[2025-10-30 15:45:40] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:45:58] [Info] [rtsp_src_0] reading frame complete, total frame==>34614
+[2025-10-30 15:45:58] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:46:17] [Info] [rtsp_src_0] reading frame complete, total frame==>34915
+[2025-10-30 15:46:17] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:46:36] [Info] [rtsp_src_0] reading frame complete, total frame==>35216
+[2025-10-30 15:46:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:46:54] [Info] [rtsp_src_0] reading frame complete, total frame==>35517
+[2025-10-30 15:46:54] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:47:13] [Info] [rtsp_src_0] reading frame complete, total frame==>35818
+[2025-10-30 15:47:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:47:31] [Info] [rtsp_src_0] reading frame complete, total frame==>36119
+[2025-10-30 15:47:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:47:50] [Info] [rtsp_src_0] reading frame complete, total frame==>36420
+[2025-10-30 15:47:50] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:48:09] [Info] [rtsp_src_0] reading frame complete, total frame==>36721
+[2025-10-30 15:48:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:48:27] [Info] [rtsp_src_0] reading frame complete, total frame==>37022
+[2025-10-30 15:48:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:48:46] [Info] [rtsp_src_0] reading frame complete, total frame==>37323
+[2025-10-30 15:48:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:49:04] [Info] [rtsp_src_0] reading frame complete, total frame==>37624
+[2025-10-30 15:49:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:49:23] [Info] [rtsp_src_0] reading frame complete, total frame==>37925
+[2025-10-30 15:49:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:49:41] [Info] [rtsp_src_0] reading frame complete, total frame==>38226
+[2025-10-30 15:49:41] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:50:00] [Info] [rtsp_src_0] reading frame complete, total frame==>38527
+[2025-10-30 15:50:00] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:50:19] [Info] [rtsp_src_0] reading frame complete, total frame==>38828
+[2025-10-30 15:50:19] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:50:37] [Info] [rtsp_src_0] reading frame complete, total frame==>39129
+[2025-10-30 15:50:37] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:50:56] [Info] [rtsp_src_0] reading frame complete, total frame==>39430
+[2025-10-30 15:50:56] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:51:14] [Info] [rtsp_src_0] reading frame complete, total frame==>39731
+[2025-10-30 15:51:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:51:33] [Info] [rtsp_src_0] reading frame complete, total frame==>40032
+[2025-10-30 15:51:33] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:51:51] [Info] [rtsp_src_0] reading frame complete, total frame==>40333
+[2025-10-30 15:51:51] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:52:10] [Info] [rtsp_src_0] reading frame complete, total frame==>40634
+[2025-10-30 15:52:10] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:52:29] [Info] [rtsp_src_0] reading frame complete, total frame==>40935
+[2025-10-30 15:52:29] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:52:47] [Info] [rtsp_src_0] reading frame complete, total frame==>41236
+[2025-10-30 15:52:47] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:53:06] [Info] [rtsp_src_0] reading frame complete, total frame==>41537
+[2025-10-30 15:53:06] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:53:24] [Info] [rtsp_src_0] reading frame complete, total frame==>41838
+[2025-10-30 15:53:24] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:53:43] [Info] [rtsp_src_0] reading frame complete, total frame==>42139
+[2025-10-30 15:53:43] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:54:02] [Info] [rtsp_src_0] reading frame complete, total frame==>42440
+[2025-10-30 15:54:02] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:54:20] [Info] [rtsp_src_0] reading frame complete, total frame==>42741
+[2025-10-30 15:54:20] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:54:39] [Info] [rtsp_src_0] reading frame complete, total frame==>43042
+[2025-10-30 15:54:39] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:54:57] [Info] [rtsp_src_0] reading frame complete, total frame==>43343
+[2025-10-30 15:54:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:55:16] [Info] [rtsp_src_0] reading frame complete, total frame==>43644
+[2025-10-30 15:55:16] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:55:34] [Info] [rtsp_src_0] reading frame complete, total frame==>43945
+[2025-10-30 15:55:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:55:53] [Info] [rtsp_src_0] reading frame complete, total frame==>44246
+[2025-10-30 15:55:53] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:56:12] [Info] [rtsp_src_0] reading frame complete, total frame==>44547
+[2025-10-30 15:56:12] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:56:30] [Info] [rtsp_src_0] reading frame complete, total frame==>44848
+[2025-10-30 15:56:30] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:56:49] [Info] [rtsp_src_0] reading frame complete, total frame==>45149
+[2025-10-30 15:56:49] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:56:59] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 15:56:59] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 15:56:59] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 15:56:59] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 15:57:18] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 15:57:18] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:57:36] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 15:57:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:57:55] [Info] [rtsp_src_0] reading frame complete, total frame==>902
+[2025-10-30 15:57:55] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:58:14] [Info] [rtsp_src_0] reading frame complete, total frame==>1203
+[2025-10-30 15:58:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:58:32] [Info] [rtsp_src_0] reading frame complete, total frame==>1504
+[2025-10-30 15:58:32] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:58:51] [Info] [rtsp_src_0] reading frame complete, total frame==>1805
+[2025-10-30 15:58:51] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:59:09] [Info] [rtsp_src_0] reading frame complete, total frame==>2106
+[2025-10-30 15:59:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:59:28] [Info] [rtsp_src_0] reading frame complete, total frame==>2407
+[2025-10-30 15:59:28] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 15:59:46] [Info] [rtsp_src_0] reading frame complete, total frame==>2708
+[2025-10-30 15:59:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:00:05] [Info] [rtsp_src_0] reading frame complete, total frame==>3009
+[2025-10-30 16:00:05] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:00:24] [Info] [rtsp_src_0] reading frame complete, total frame==>3310
+[2025-10-30 16:00:24] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:00:42] [Info] [rtsp_src_0] reading frame complete, total frame==>3611
+[2025-10-30 16:00:42] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:01:01] [Info] [rtsp_src_0] reading frame complete, total frame==>3912
+[2025-10-30 16:01:01] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:01:19] [Info] [rtsp_src_0] reading frame complete, total frame==>4213
+[2025-10-30 16:01:19] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:01:38] [Info] [rtsp_src_0] reading frame complete, total frame==>4514
+[2025-10-30 16:01:38] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:01:57] [Info] [rtsp_src_0] reading frame complete, total frame==>4815
+[2025-10-30 16:01:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:02:15] [Info] [rtsp_src_0] reading frame complete, total frame==>5116
+[2025-10-30 16:02:15] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:02:34] [Info] [rtsp_src_0] reading frame complete, total frame==>5417
+[2025-10-30 16:02:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:02:52] [Info] [rtsp_src_0] reading frame complete, total frame==>5718
+[2025-10-30 16:02:52] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:03:11] [Info] [rtsp_src_0] reading frame complete, total frame==>6019
+[2025-10-30 16:03:11] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:03:30] [Info] [rtsp_src_0] reading frame complete, total frame==>6320
+[2025-10-30 16:03:30] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:03:48] [Info] [rtsp_src_0] reading frame complete, total frame==>6621
+[2025-10-30 16:03:48] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:04:07] [Info] [rtsp_src_0] reading frame complete, total frame==>6922
+[2025-10-30 16:04:07] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:04:25] [Info] [rtsp_src_0] reading frame complete, total frame==>7223
+[2025-10-30 16:04:25] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:04:44] [Info] [rtsp_src_0] reading frame complete, total frame==>7524
+[2025-10-30 16:04:44] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:05:02] [Info] [rtsp_src_0] reading frame complete, total frame==>7825
+[2025-10-30 16:05:02] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:05:21] [Info] [rtsp_src_0] reading frame complete, total frame==>8126
+[2025-10-30 16:05:21] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:05:40] [Info] [rtsp_src_0] reading frame complete, total frame==>8427
+[2025-10-30 16:05:40] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:05:58] [Info] [rtsp_src_0] reading frame complete, total frame==>8728
+[2025-10-30 16:05:58] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:06:17] [Info] [rtsp_src_0] reading frame complete, total frame==>9029
+[2025-10-30 16:06:17] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:06:35] [Info] [rtsp_src_0] reading frame complete, total frame==>9330
+[2025-10-30 16:06:35] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:06:54] [Info] [rtsp_src_0] reading frame complete, total frame==>9631
+[2025-10-30 16:06:54] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:07:13] [Info] [rtsp_src_0] reading frame complete, total frame==>9932
+[2025-10-30 16:07:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:07:31] [Info] [rtsp_src_0] reading frame complete, total frame==>10233
+[2025-10-30 16:07:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:07:50] [Info] [rtsp_src_0] reading frame complete, total frame==>10534
+[2025-10-30 16:07:50] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:08:08] [Info] [rtsp_src_0] reading frame complete, total frame==>10835
+[2025-10-30 16:08:08] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:08:27] [Info] [rtsp_src_0] reading frame complete, total frame==>11136
+[2025-10-30 16:08:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:08:45] [Info] [rtsp_src_0] reading frame complete, total frame==>11437
+[2025-10-30 16:08:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:09:04] [Info] [rtsp_src_0] reading frame complete, total frame==>11738
+[2025-10-30 16:09:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:09:23] [Info] [rtsp_src_0] reading frame complete, total frame==>12039
+[2025-10-30 16:09:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:09:41] [Info] [rtsp_src_0] reading frame complete, total frame==>12340
+[2025-10-30 16:09:41] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:10:00] [Info] [rtsp_src_0] reading frame complete, total frame==>12641
+[2025-10-30 16:10:00] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:10:18] [Info] [rtsp_src_0] reading frame complete, total frame==>12942
+[2025-10-30 16:10:18] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:10:37] [Info] [rtsp_src_0] reading frame complete, total frame==>13243
+[2025-10-30 16:10:37] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:10:55] [Info] [rtsp_src_0] reading frame complete, total frame==>13544
+[2025-10-30 16:10:55] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:11:14] [Info] [rtsp_src_0] reading frame complete, total frame==>13845
+[2025-10-30 16:11:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:11:33] [Info] [rtsp_src_0] reading frame complete, total frame==>14146
+[2025-10-30 16:11:33] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:11:51] [Info] [rtsp_src_0] reading frame complete, total frame==>14447
+[2025-10-30 16:11:51] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:12:10] [Info] [rtsp_src_0] reading frame complete, total frame==>14748
+[2025-10-30 16:12:10] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:12:28] [Info] [rtsp_src_0] reading frame complete, total frame==>15049
+[2025-10-30 16:12:28] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:12:47] [Info] [rtsp_src_0] reading frame complete, total frame==>15350
+[2025-10-30 16:12:47] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:13:06] [Info] [rtsp_src_0] reading frame complete, total frame==>15651
+[2025-10-30 16:13:06] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:13:24] [Info] [rtsp_src_0] reading frame complete, total frame==>15952
+[2025-10-30 16:13:24] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:13:43] [Info] [rtsp_src_0] reading frame complete, total frame==>16253
+[2025-10-30 16:13:43] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:14:01] [Info] [rtsp_src_0] reading frame complete, total frame==>16554
+[2025-10-30 16:14:01] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:14:20] [Info] [rtsp_src_0] reading frame complete, total frame==>16855
+[2025-10-30 16:14:20] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:14:39] [Info] [rtsp_src_0] reading frame complete, total frame==>17156
+[2025-10-30 16:14:39] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:14:57] [Info] [rtsp_src_0] reading frame complete, total frame==>17457
+[2025-10-30 16:14:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:15:16] [Info] [rtsp_src_0] reading frame complete, total frame==>17758
+[2025-10-30 16:15:16] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:15:34] [Info] [rtsp_src_0] reading frame complete, total frame==>18059
+[2025-10-30 16:15:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:15:53] [Info] [rtsp_src_0] reading frame complete, total frame==>18360
+[2025-10-30 16:15:53] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:16:12] [Info] [rtsp_src_0] reading frame complete, total frame==>18661
+[2025-10-30 16:16:12] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:16:30] [Info] [rtsp_src_0] reading frame complete, total frame==>18962
+[2025-10-30 16:16:30] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:16:49] [Info] [rtsp_src_0] reading frame complete, total frame==>19263
+[2025-10-30 16:16:49] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:17:07] [Info] [rtsp_src_0] reading frame complete, total frame==>19564
+[2025-10-30 16:17:07] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:17:26] [Info] [rtsp_src_0] reading frame complete, total frame==>19865
+[2025-10-30 16:17:26] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:17:44] [Info] [rtsp_src_0] reading frame complete, total frame==>20166
+[2025-10-30 16:17:44] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:18:03] [Info] [rtsp_src_0] reading frame complete, total frame==>20467
+[2025-10-30 16:18:03] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:18:22] [Info] [rtsp_src_0] reading frame complete, total frame==>20768
+[2025-10-30 16:18:22] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:18:40] [Info] [rtsp_src_0] reading frame complete, total frame==>21069
+[2025-10-30 16:18:40] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:18:59] [Info] [rtsp_src_0] reading frame complete, total frame==>21370
+[2025-10-30 16:18:59] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:19:18] [Info] [rtsp_src_0] reading frame complete, total frame==>21671
+[2025-10-30 16:19:18] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:19:36] [Info] [rtsp_src_0] reading frame complete, total frame==>21972
+[2025-10-30 16:19:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:19:55] [Info] [rtsp_src_0] reading frame complete, total frame==>22273
+[2025-10-30 16:19:55] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:20:13] [Info] [rtsp_src_0] reading frame complete, total frame==>22574
+[2025-10-30 16:20:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:20:32] [Info] [rtsp_src_0] reading frame complete, total frame==>22875
+[2025-10-30 16:20:32] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:20:51] [Info] [rtsp_src_0] reading frame complete, total frame==>23176
+[2025-10-30 16:20:51] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:21:09] [Info] [rtsp_src_0] reading frame complete, total frame==>23477
+[2025-10-30 16:21:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:21:28] [Info] [rtsp_src_0] reading frame complete, total frame==>23778
+[2025-10-30 16:21:28] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:21:46] [Info] [rtsp_src_0] reading frame complete, total frame==>24079
+[2025-10-30 16:21:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:22:05] [Info] [rtsp_src_0] reading frame complete, total frame==>24380
+[2025-10-30 16:22:05] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:41:08] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 16:41:08] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 16:41:08] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 16:41:08] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 16:41:27] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 16:41:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:41:45] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 16:41:45] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:42:04] [Info] [rtsp_src_0] reading frame complete, total frame==>902
+[2025-10-30 16:42:04] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:43:59] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 16:43:59] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 16:43:59] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 16:43:59] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 16:54:22] [Info] [rtsp_src_0] [filesrc location=assets/videos/9person.mp4 ! qtdemux ! h264parse ! mppvideodec ! videoconvert ! appsink]
+[2025-10-30 16:54:22] [Warn] [rk_yolo_0] cv::dnn::readNet load network failed!
+[2025-10-30 16:54:22] [Info] [rtmp_des_0] [appsrc ! videoconvert ! x264enc ! h264parse ! flvmux ! rtmpsink location=rtmp://192.168.1.100:1935/stream_0]
+[2025-10-30 16:54:22] [Info] 
+############# pipe check summary ##############
+ total layers: 5
+ layer index,       node names
+ 1                    rtsp_src_0,
+ 2                    rk_yolo_0,
+ 3                    osd_0,
+ 4                    broker_0,
+ 5                    rtmp_des_0,
+############# pipe check summary ##############
+
+[2025-10-30 16:54:41] [Info] [rtsp_src_0] reading frame complete, total frame==>300
+[2025-10-30 16:54:41] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:55:00] [Info] [rtsp_src_0] reading frame complete, total frame==>601
+[2025-10-30 16:55:00] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:55:18] [Info] [rtsp_src_0] reading frame complete, total frame==>902
+[2025-10-30 16:55:18] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:55:37] [Info] [rtsp_src_0] reading frame complete, total frame==>1203
+[2025-10-30 16:55:37] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:55:56] [Info] [rtsp_src_0] reading frame complete, total frame==>1504
+[2025-10-30 16:55:56] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:56:14] [Info] [rtsp_src_0] reading frame complete, total frame==>1805
+[2025-10-30 16:56:14] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:56:33] [Info] [rtsp_src_0] reading frame complete, total frame==>2106
+[2025-10-30 16:56:33] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:56:52] [Info] [rtsp_src_0] reading frame complete, total frame==>2407
+[2025-10-30 16:56:52] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:57:10] [Info] [rtsp_src_0] reading frame complete, total frame==>2708
+[2025-10-30 16:57:10] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:57:29] [Info] [rtsp_src_0] reading frame complete, total frame==>3009
+[2025-10-30 16:57:29] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:57:48] [Info] [rtsp_src_0] reading frame complete, total frame==>3310
+[2025-10-30 16:57:48] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:58:06] [Info] [rtsp_src_0] reading frame complete, total frame==>3611
+[2025-10-30 16:58:06] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:58:25] [Info] [rtsp_src_0] reading frame complete, total frame==>3912
+[2025-10-30 16:58:25] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:58:44] [Info] [rtsp_src_0] reading frame complete, total frame==>4213
+[2025-10-30 16:58:44] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:59:02] [Info] [rtsp_src_0] reading frame complete, total frame==>4514
+[2025-10-30 16:59:02] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:59:21] [Info] [rtsp_src_0] reading frame complete, total frame==>4815
+[2025-10-30 16:59:21] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:59:39] [Info] [rtsp_src_0] reading frame complete, total frame==>5116
+[2025-10-30 16:59:39] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 16:59:58] [Info] [rtsp_src_0] reading frame complete, total frame==>5417
+[2025-10-30 16:59:58] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:00:17] [Info] [rtsp_src_0] reading frame complete, total frame==>5718
+[2025-10-30 17:00:17] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:00:36] [Info] [rtsp_src_0] reading frame complete, total frame==>6019
+[2025-10-30 17:00:36] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:00:54] [Info] [rtsp_src_0] reading frame complete, total frame==>6320
+[2025-10-30 17:00:54] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:01:13] [Info] [rtsp_src_0] reading frame complete, total frame==>6621
+[2025-10-30 17:01:13] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:01:31] [Info] [rtsp_src_0] reading frame complete, total frame==>6922
+[2025-10-30 17:01:31] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:01:50] [Info] [rtsp_src_0] reading frame complete, total frame==>7223
+[2025-10-30 17:01:50] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:02:09] [Info] [rtsp_src_0] reading frame complete, total frame==>7524
+[2025-10-30 17:02:09] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:02:27] [Info] [rtsp_src_0] reading frame complete, total frame==>7825
+[2025-10-30 17:02:27] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:02:46] [Info] [rtsp_src_0] reading frame complete, total frame==>8126
+[2025-10-30 17:02:46] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:03:05] [Info] [rtsp_src_0] reading frame complete, total frame==>8427
+[2025-10-30 17:03:05] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:03:23] [Info] [rtsp_src_0] reading frame complete, total frame==>8728
+[2025-10-30 17:03:23] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:03:42] [Info] [rtsp_src_0] reading frame complete, total frame==>9029
+[2025-10-30 17:03:42] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:04:01] [Info] [rtsp_src_0] reading frame complete, total frame==>9330
+[2025-10-30 17:04:01] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:04:20] [Info] [rtsp_src_0] reading frame complete, total frame==>9631
+[2025-10-30 17:04:20] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:04:38] [Info] [rtsp_src_0] reading frame complete, total frame==>9932
+[2025-10-30 17:04:38] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:04:57] [Info] [rtsp_src_0] reading frame complete, total frame==>10233
+[2025-10-30 17:04:57] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:05:15] [Info] [rtsp_src_0] reading frame complete, total frame==>10534
+[2025-10-30 17:05:15] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:05:34] [Info] [rtsp_src_0] reading frame complete, total frame==>10835
+[2025-10-30 17:05:34] [Info] [rtsp_src_0] cycle flag is true, continue!
+[2025-10-30 17:05:53] [Info] [rtsp_src_0] reading frame complete, total frame==>11136
+[2025-10-30 17:05:53] [Info] [rtsp_src_0] cycle flag is true, continue!
