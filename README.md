@@ -101,7 +101,7 @@ build/bin/rk_videopipe
 ```
 
 ### 参考项目
-
+[RK_VideoPipe](https://github.com/alexw914/RK_VideoPipe.git):主要参考项目\
 [VideoPipe](https://github.com/sherlockchou86/VideoPipe.git): 主要参考项目，大部分节点定义和实现均由该仓库提供 \
 [trt_yolo_video_pipeline](https://github.com/1461521844lijin/trt_yolo_video_pipeline.git) 参考了FFmpeg的编解码的实现 \
 [rknn_model_zoo](https://github.com/airockchip/rknn_model_zoo) 参考了YOLO系列和分类模型实现，完成了C++类封装 \
