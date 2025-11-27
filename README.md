@@ -1,4 +1,5 @@
-# RK_VideoPipe
+#  1. RK_VideoPipe
+## 1.1. 项目简介
 本项目主要参考[RK_VideoPipe](https://github.com/alexw914/RK_VideoPipe.git)开源项目, 进行部分修改，适配本人项目使用，如有问题，请参考原作者代码仓库。
 本项目目标主要是优化原作者的实现方案：
 - 输入节点优化：使用gstreamer拉rtsp流并使用udp传输协议（udp传输不稳定，仅满足本人项目需求），通过gst-sample采集appsink中的nv12格式图像帧，通过rga实现NV12->RGB转换，降低CPU开销。
@@ -9,12 +10,12 @@
 - 将dma_fd(dma文件描述符)作为图像帧上下文，替代cv::Mat,目的是方便rga函数的实现以及输出节点可免去videoconvert步骤，进一步减少CPU占用。
 
 
-## 项目构建
+## 1.2. 项目构建
 
-平台
+### 1.2.1. 平台
 - Ubuntu 22.04 jammy aarch64 / Debain (已测试香橙派5B平台ubuntu系统和Rock5B平台Armbain系统)
 
-环境
+### 1.2.2. 环境
 - C++ 17
 - OpenCV >= 4.6 (需支持FreeType, 否则需要改写部分OSD节点)
 - GStreamer (官网推荐完整安装，需额外支持rkmpp插件)
@@ -26,8 +27,14 @@ cd RK_VideoPipe
 ./build.sh
 build/demo
 ```
+### 1.2.3. 推理库安装/更新
+使用最新版的rknnruntime库，可通过下列方式检查librknnrt.so版本：
+```
+strings /path/to/librknnrt.so | grep version
+```
+如果版本低，去[rknn-toolkit2](https://github.com/airockchip/rknn-toolkit2.git)仓库找到librknnrt.so文件，下载并替换本地老旧版本即可。
 
-补充库安装
+### 1.2.4. 补充库安装
 - vp_rtsp_mul_des_node节点需要gst的rtsp server:
 ```
 sudo apt-get install libgstrtspserver-1.0-dev gstreamer1.0-rtsp
@@ -61,7 +68,7 @@ cd gstreamer-rockchip
 meson build && ninja -C build
 sudo ninja -C build install
 ```
-## 参考项目
+## 1.3. 参考项目
 [RK_VideoPipe](https://github.com/alexw914/RK_VideoPipe.git):主要参考项目\
 [VideoPipe](https://github.com/sherlockchou86/VideoPipe.git): 主要参考项目，大部分节点定义和实现均由该仓库提供 \
 [trt_yolo_video_pipeline](https://github.com/1461521844lijin/trt_yolo_video_pipeline.git) 参考了FFmpeg的编解码的实现 \

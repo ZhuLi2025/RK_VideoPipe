@@ -4,6 +4,7 @@
 #include "nodes/vp_ffmpeg_src_node.h"
 #include "nodes/vp_file_src_node.h"
 #include "nodes/vp_rk_rtsp_src_node.h"
+#include "nodes/vp_rtsp_src_node.h"
 
 #include "nodes/infer/vp_rk_first_yolo.h"
 #include "nodes/infer/vp_rk_second_yolo.h"
@@ -15,6 +16,7 @@
 #include "nodes/vp_file_des_node.h"
 #include "nodes/vp_screen_des_node.h"
 #include "nodes/vp_rtsp_des_node.h"
+#include "nodes/vp_rtsp_mul_des_node.h"
 #include "nodes/vp_udp_des_node.h"
 
 #include "nodes/track/vp_sort_track_node.h"
@@ -42,10 +44,12 @@ int main(int argc, char** argv)
 
     // create nodes
     //auto src_0 = std::make_shared<vp_nodes::vp_file_src_node>("rtsp_src_0", 0, argv[1], 1.0, true, "mppvideodec");
-     auto src_0 = std::make_shared<vp_nodes::vp_rk_rtsp_src_node>("rtsp_src_0", 0,"rtsp://admin:Password@192.168.1.64:554/h264/ch1/sub/av_stream");
+     auto src_0 = std::make_shared<vp_nodes::vp_rtsp_src_node>("rtsp_src_0", 0,"rtsp://admin:Password@192.168.1.65:554/h264/ch1/sub/av_stream");
+     auto src_1 = std::make_shared<vp_nodes::vp_rtsp_src_node>("rtsp_src_1", 1,"rtsp://admin:Password@192.168.1.65:554/h264/ch1/sub/av_stream");
     // auto src_0 = std::make_shared<vp_nodes::vp_ffmpeg_src_node>("rtsp_src_0", 0, "rtsp://admin:hk123456@192.168.3.26:554/Streaming/Channels/301");
 
     auto yolo_0  = std::make_shared<vp_nodes::vp_rk_first_yolo>("rk_yolo_0", "assets/configs/person.json");    
+    auto yolo_1  = std::make_shared<vp_nodes::vp_rk_first_yolo>("rk_yolo_1", "assets/configs/person.json");    
     //auto track_0 = std::make_shared<vp_nodes::vp_sort_track_node>("track_0");
     // auto track_0 = std::make_shared<vp_nodes::vp_byte_track_node>("track_0");
 
@@ -54,16 +58,16 @@ int main(int argc, char** argv)
     // auto cls_0  = std::make_shared<vp_nodes::vp_rk_second_cls>("rk_cls_0", "assets/configs/stand_sit.json", std::vector<int>{0});
     
     auto osd_0      = std::make_shared<vp_nodes::vp_osd_node>("osd_0");
-    auto msg_broker = std::make_shared<vp_nodes::vp_json_console_broker_node>("broker_0");
-
+    auto msg_broker_0 = std::make_shared<vp_nodes::vp_json_console_broker_node>("broker_0");
     yolo_0->attach_to({src_0});
-    // track_0->attach_to({yolo_0});
-    // cls_0->attach_to({track_0});
-    // pose_0->attach_to({cls_0});
     osd_0->attach_to({yolo_0});
-    // pose_osd_0->attach_to({osd_0});
-    msg_broker->attach_to({osd_0});
+    msg_broker_0->attach_to({osd_0});
 
+    auto osd_1      = std::make_shared<vp_nodes::vp_osd_node>("osd_1");
+    auto msg_broker_1 = std::make_shared<vp_nodes::vp_json_console_broker_node>("broker_1");
+    yolo_1->attach_to({src_1});
+    osd_1->attach_to({yolo_1});
+    msg_broker_1->attach_to({osd_1});
     // if(strcmp(argv[3], "rtmp") == 0){
     //     auto des_0 = std::make_shared<vp_nodes::vp_rtmp_des_node>("rtmp_des_0", 0, "rtmp://192.168.1.100:1935/stream/stream");
     //     des_0->attach_to({msg_broker});
@@ -98,16 +102,19 @@ int main(int argc, char** argv)
     // des_1->attach_to({msg_broker});
     // auto des_2 = std::make_shared<vp_nodes::vp_screen_des_node>("screen_des_0", 0);
     // des_2->attach_to({msg_broker});
-    auto des_1 = std::make_shared<vp_nodes::vp_rtsp_des_node>("rtsp_des_0", 0,"192.168.1.99", 8000, "rtsp_0");
-    des_1->attach_to({msg_broker});
+    auto des_0 = std::make_shared<vp_nodes::vp_rtsp_mul_des_node>("rtsp_des_0", 0,"192.168.1.99", 8000, "rtsp_0");
+    des_0->attach_to({msg_broker_0});
+    auto des_1 = std::make_shared<vp_nodes::vp_rtsp_mul_des_node>("rtsp_des_1", 1,"192.168.1.99", 8000, "rtsp_1");
+    des_1->attach_to({msg_broker_1});
     // auto des_2 = std::make_shared<vp_nodes::vp_rtmp_des_node>("rtmp_des_0", 0, "rtmp://192.168.1.100:1935/stream/stream");
     // des_2->attach_to({msg_broker});
     
     src_0->start();
+    src_1->start();
 
     //getchar();
     //src_0->detach_recursively();
-    vp_utils::vp_analysis_board board({src_0});
+    vp_utils::vp_analysis_board board({src_0,src_1});
     board.display();
 
     return 0;
