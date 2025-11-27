@@ -28,9 +28,10 @@ build/demo
 
 补充库安装
 - vp_rtsp_mul_des_node节点需要gst的rtsp server:
-'''
+```
 sudo apt-get install libgstrtspserver-1.0-dev gstreamer1.0-rtsp
-'''
+```
+
 - 输出输出节点需要使用mpp硬件编解码：
 
 ### 参考项目
