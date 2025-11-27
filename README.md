@@ -8,7 +8,8 @@
 - 使用rga替代opencv实现预处理、后处理。
 - 将dma_fd(dma文件描述符)作为图像帧上下文，替代cv::Mat,目的是方便rga函数的实现以及输出节点可免去videoconvert步骤，进一步减少CPU占用。
 
-### 项目构建
+
+## 项目构建
 
 平台
 - Ubuntu 22.04 jammy aarch64 / Debain (已测试香橙派5B平台ubuntu系统和Rock5B平台Armbain系统)
@@ -34,7 +35,7 @@ sudo apt-get install libgstrtspserver-1.0-dev gstreamer1.0-rtsp
 
 - 输出输出节点需要使用mpp硬件编解码：
 如果你的镜像中有mpp的编解码器，请忽视（gst-inspect-1.0 |grep mpp 如果输出中包含mpph264enc/mpph265enc、mppvideodec则表示gstreamer已经具备mpp编解码插件）
-    - 前置依赖安装
+>前置依赖安装
 ```
 sudo apt-get update
 sudo apt-get install -y \
@@ -44,7 +45,7 @@ sudo apt-get install -y \
     libdrm-dev \
     libglib2.0-dev
 ```
-    - 安装 MPP（从源码）
+   >安装 MPP（从源码）
 ```
 git clone https://github.com/rockchip-linux/mpp.git
 cd mpp
@@ -53,14 +54,14 @@ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 make -j$(nproc)
 sudo make install
 ```
-    - 编译 gstreamer-rockchip 插件
+> 编译 gstreamer-rockchip 插件
 ```
 git clone https://github.com/Lockzhiner/gstreamer-rockchip.git
 cd gstreamer-rockchip
 meson build && ninja -C build
 sudo ninja -C build install
 ```
-### 参考项目
+## 参考项目
 [RK_VideoPipe](https://github.com/alexw914/RK_VideoPipe.git):主要参考项目\
 [VideoPipe](https://github.com/sherlockchou86/VideoPipe.git): 主要参考项目，大部分节点定义和实现均由该仓库提供 \
 [trt_yolo_video_pipeline](https://github.com/1461521844lijin/trt_yolo_video_pipeline.git) 参考了FFmpeg的编解码的实现 \
