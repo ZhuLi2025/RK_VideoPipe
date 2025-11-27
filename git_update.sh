@@ -9,4 +9,4 @@
 COMMIT_DESCRIPTION=${1:-1}
 git add .
 git commit -m "$COMMIT_DESCRIPTION"
-git push -u origin main
+git push -u origin main #仅当branch为main
