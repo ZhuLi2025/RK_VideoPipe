@@ -40,5 +40,9 @@
 # debug information files
 *.dwo
 
+# 系统监控信息文件
+*.xlsx
+
+# 构建文件，日志信息
 build/*
 log/*

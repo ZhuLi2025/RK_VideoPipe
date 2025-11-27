@@ -5,6 +5,7 @@ from datetime import datetime
 import signal
 import sys
 import os
+from tqdm import tqdm
 
 class SystemRecorder:
     def __init__(self, interval=5, duration=3600, output_file="system_status.xlsx"):
@@ -22,7 +23,7 @@ class SystemRecorder:
 
     def handle_exit(self, signum, frame):
         """捕获中断信号并保存"""
-        print(f"\n⚠️ 检测到中断信号 ({signum})，正在保存当前数据...")
+        print(f"\n 检测到中断信号 ({signum})，正在保存当前数据...")
         self.running = False
         self.save_data()
 
@@ -79,7 +80,7 @@ class SystemRecorder:
         print(f"检测到 {self.cpu_count} 个 CPU 核心，将分别记录占用率。")
 
         try:
-            for i in range(int(total_samples)):
+            for i in tqdm(range(int(total_samples))):
                 if not self.running:
                     break
                 self.collect_once()
@@ -94,5 +95,5 @@ class SystemRecorder:
             self.save_data()
 
 if __name__ == "__main__":
-    recorder = SystemRecorder(interval=5, duration=3600)
+    recorder = SystemRecorder(interval=5, duration=300)
     recorder.run()

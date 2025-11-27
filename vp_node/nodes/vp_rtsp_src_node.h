@@ -20,7 +20,7 @@ private:
     GstElement* appsink = nullptr;
 
     // 拉取 GstSample 并转换成 BGR
-    cv::Mat rga_convert_nv12_to_bgr(void* nv12_ptr, int width, int height);
+    cv::Mat rga_convert_nv12_to_bgr(GstBuffer* nv12_ptr, int width, int height);
 
 protected:
     virtual void handle_run() override;
@@ -31,7 +31,7 @@ public:
                      std::string rtsp_url,
                      float resize_ratio = 1.0,
                      std::string gst_decoder_name = "mppvideodec",
-                     int skip_interval = 0);
+                     int skip_interval = 1);
 
     ~vp_rtsp_src_node();
 
