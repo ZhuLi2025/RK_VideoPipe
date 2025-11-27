@@ -28,7 +28,9 @@ build/demo
 
 补充库安装
 - vp_rtsp_mul_des_node节点需要gst的rtsp server:
-    sudo apt-get install libgstrtspserver-1.0-dev gstreamer1.0-rtsp
+'''
+sudo apt-get install libgstrtspserver-1.0-dev gstreamer1.0-rtsp
+'''
 - 输出输出节点需要使用mpp硬件编解码：
 
 ### 参考项目
@@ -37,5 +39,3 @@ build/demo
 [trt_yolo_video_pipeline](https://github.com/1461521844lijin/trt_yolo_video_pipeline.git) 参考了FFmpeg的编解码的实现 \
 [rknn_model_zoo](https://github.com/airockchip/rknn_model_zoo) 参考了YOLO系列和分类模型实现，完成了C++类封装 \
 [RTMPose-Deploy](https://github.com/HW140701/RTMPose-Deploy) 参考了RTMPose后处理方案，放弃了仿射变换实现，转用LetterBox实现。
-
-branch test
